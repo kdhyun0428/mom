@@ -23,6 +23,13 @@ export default function KakaoMap(props) {
           level: 3
         };
         const map = new kakao.maps.Map(container.current, options);
+
+        var markerPosition = new kakao.maps.LatLng(35.1585019, 129.0620362);
+ 
+        // 마커를 생성합니다
+        var marker = new kakao.maps.Marker({
+            position: markerPosition
+        });
         //setMapCenter(center);
         setKakaoMap(map);
       });

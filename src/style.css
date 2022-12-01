@@ -1,86 +1,54 @@
 .App {
-    font-family: sans-serif;
-  }
-  
-  #wrap {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  body {
-    background: #F6F8F3;
-  }
+  font-family: sans-serif;
+}
 
-  header {
-    background: linear-gradient(270deg, #FFE0AD 0%, rgba(240, 221, 190, 0.973958) 0.01%, rgba(255, 247, 235, 0.872592) 0.02%, rgba(254, 219, 162, 0) 91.48%);
-  }
-  nav{
-    position: absolute;
-    width: 100%;
-    top:100px;
-  }  
-
-  section {
-    position: absolute;
-    width: 100%;
-    top: 290px;
-  }
-  img {
-    padding-left: 12px;
-    padding-top: 8px;
-  }
-
-  nav > h2 {
-    text-align: center;
-  }
-
-  nav > p {
-    font-size: small;
-    text-align: center;
-  }
-
-  
-.navbar {
+#wrap {
   display: flex;
-  justify-content: spa;
   align-items: center;
+  flex-direction: column;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+body {
+  background: #F6F8F3;
 }
 
-.navbar__menu {
+
+nav {
   display: flex;
-  list-style: none;
-  padding-left: 0;
-  justify-content: flex-end;
+  width: 100%;
+  top: 100px;
+  text-align: center;
+  justify-content: center;
+  color: #5A4139;
 }
 
-.navbar__menu li {
-  padding: 8px 12px;
+section {
+  display: flex;
+  width: 100%;
+  top: 290px;
+  margin: auto;
+  justify-content: center;
+  color: #5A4139;
+
 }
 
-.navbar__menu li:hover {
-  background-color: #e3e3e3e3;
-  border-radius: 4px;
+img {
+  padding-left: 0px;
+  padding-top: 2px;
 }
 
-@media screen and (max-width: 800px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .navbar__menu {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
+p {
+  font-size: small;
+}
 
-  .navbar__menu li {
-    width: 100%;
-    text-align: center;
-  }
+button {
+  background: #e0a152;
+  margin: 1rem;
+  border-radius: 5rem;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
